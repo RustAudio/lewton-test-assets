@@ -9,7 +9,9 @@ These are some test assets used by the [lewton](https://github.com/RustAudio/lew
     - [maple_leaf_rag.ogg](https://commons.wikimedia.org/wiki/File:Maple_Leaf_Rag_-_played_by_Scott_Joplin_1916_sample.ogg)
     - [bwv_543_fuge.ogg](https://commons.wikimedia.org/wiki/File:BWV_543-fugue.ogg)
     - [bwv_1043_vivace.ogg](https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach_-_Concerto_for_Two_Violins_in_D_minor_-_1._Vivace.ogg)
-* Various files that were part of bug reports
+* lewton-bugs: originating from bug reports
+    - audio_simple_err.ogg: [Issue 24](https://github.com/RustAudio/lewton/issues/24)
+* lewton-fuzzed: originating from fuzzing by [@Shnatsel](https://github.com/Shnatsel)
 
 ## License
 
@@ -22,6 +24,9 @@ Please refer to the sources of the test assets to find out their licenses.
     - maple_leaf_rag.ogg: Public domain
     - bwv_543_fuge.ogg: [GFDL 1.2](https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License,_version_1.2) OR [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) OR [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/deed.en) (at your choice)
     - bwv_1043_vivace.ogg: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/deed.en)
-* Links to licenes for other files: TODO
+* lewton-bugs:
+    - audio_simple_err.ogg: I believe this file is so short that no copyright applies to it.
+* lewton-fuzzed:
+    - CC-0 according to [this statement](https://github.com/RustAudio/lewton/issues/33#issuecomment-419640709)
 
 This readme, as well as anything else about the repository outside of the assets themselves is under the [CC-0](https://creativecommons.org/publicdomain/zero/1.0/) license.
